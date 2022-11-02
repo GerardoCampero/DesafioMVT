@@ -6,7 +6,7 @@ from Appmvt.models import Familiares
 
 # Create your views here.
 
-
+# Se genera función de vista
 def listadoFamiliares(request):
 
     listaFamiliares = Familiares.objects.all()
