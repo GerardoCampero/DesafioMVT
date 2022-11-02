@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # Se agrega la app creada
     'Appmvt',
 ]
 
@@ -55,6 +56,7 @@ ROOT_URLCONF = 'DesafioMVT.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        # Se agrega la ruta de la carpeta que contiene los templates html
         'DIRS': [r"C:\Users\Gerardo\Desktop\CoderHoyse\DesafioMVT\DesafioMVT\Templates"],
         'APP_DIRS': True,
         'OPTIONS': {

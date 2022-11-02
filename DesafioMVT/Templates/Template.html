@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio Familiares</title>
+    <!--Se da estilo a la tabla-->
     <style>
         table {
             border: 1px solid;
@@ -20,7 +21,7 @@
         </style>
 </head>
 <body>
-    
+    <!--Se genera tabla con los datos de los familiares-->
     <table class="table table-dark">
         <thead>
           <tr>
@@ -30,6 +31,7 @@
           </tr>
         </thead>
         <tbody>
+          <!--Se utiliza un for para extraer los datos-->
             {% for item in listaFamiliares %}
           <tr>
             <td>{{item.nombre}}</td>

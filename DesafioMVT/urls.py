@@ -19,5 +19,6 @@ from Appmvt.views import listadoFamiliares
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    # Se asigna el path a la view
     path('familiares/', listadoFamiliares)
 ]
